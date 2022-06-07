@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Centre Dentaire</title>
+    <style>
+        section{
+            padding: 60px 0;
+        }
+        .card-img-top {
+          width: 100%;
+          height: 35vw;
+          object-fit: cover;
+        }
+        .card-img {
+          width: 100%;
+          height: 20vw;
+          object-fit: cover;
+        }
+        .bg-image {
+          background-size: 100%;
+          background-image: url('/assets/smiling.jpg');
+          background-repeat: no-repeat;
+        }
+    </style>
+    <script type = "text/javascript" src="scripts.js"></script>  
+</head>
+
+<body style="background-color: #AFCEEE">
+
+
+<!--  navbar  -->
+                                                <!--colour of bar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light fixed" style="background-color: #AFCEEE">
+    <div class="container-fluid">
+                <!-- clicking on logo brings u to intro section-->
+        <a class="navbar-brand" href="index.html#intro">Centre Dentaire Universitaire</a>
+
+            <!--toggle button for mobile / small scnreen-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTexts" aria-controls="navbarTexts" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <!-- links on navbar -->
+        <div class="collapse navbar-collapse justify-content-end align-center" id="navbarTexts">
+        <ul class="navbar-nav">
+
+          <li class="nav-item me-1">
+          <a class="nav-link fw-bold" href="index.html#mission">Notre Mission</a>
+          </li>
+          <li class="nav-item me-1">
+          <a class="nav-link fw-bold" href="index.html#team">Notre Équipe</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="index.html#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nos Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index.html#oralExam">Examen Oral</a></li>
+              <li><a class="dropdown-item" href="index.html#cleaning">Nettoyage Dentaire</a></li>
+              <li><a class="dropdown-item" href="index.html#extractions">Extractions Dentaires</a></li>
+              <li><a class="dropdown-item" href="index.html#whitening">Blanchiment des Dents</a></li>
+              <li><a class="dropdown-item" href="index.html#rootCanal">Chirurgie du Canal Radiculaire</a></li>
+              <li><a class="dropdown-item" href="index.html#implants">Implants Dentaires</a></li>
+            </ul>
+          </li>
+          <li class="nav-item me-1">
+          <a class="nav-link fw-bold" href="index.html#contact">Contactez-Nous</a>
+          </li>
+          <!--keep me-4 margin here??-->
+          <li class="nav-item d-lg-none">
+          <a class="nav-link fw-bold" href="index.html#book">Fixer Un Rendez-Vous</a>
+          </li>
+        </ul>
+        <li class="nav-item ms-2 d-none d-lg-inline">
+            <a class="btn btn-secondary fw-bold" href="index.html#book">Fixer Un Rendez-Vous</a>
+        </li>
+        </div>
+    </div>
+</nav>
+
+<section id="confirmation" class="mt-4">
+    <div class="container-lg mt-5">
+      <div class="row"> 
+              <!-- this div is text, col will be 12 (whole screen) for small screens, 5 for med, for med it will move text from center to left   -->
+          <div class="col-md-12 text-start text-fluid">
+            <h1> 
+              <script>displayFirstName()</script>
+              <div id="confirmationText" class="display-2">Nous avons reçu votre demande de rendez-vous. <br> Un membre de notre équipe vous contactera bientôt.</div>
+                          <!-- muted= grey color-->
+              <div class="display-5 text-muted d-lg-block"><br>Merci de nous avoir contactés</div>
+            </h1>
+          </div>
+        </div>
+    </div>
+  </section>

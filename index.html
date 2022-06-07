@@ -1,0 +1,442 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <title>Centre Dentaire Universitaire</title>
+  <style>
+    section {
+      padding: 60px 0;
+    }
+
+    .card-img-top {
+      width: 100%;
+      height: 35vw;
+      object-fit: cover;
+    }
+
+    .card-img {
+      width: 100%;
+      height: 20vw;
+      object-fit: cover;
+    }
+
+    .bg-image {
+      background-size: 100%;
+      background-image: url('/assets/smiling.jpg');
+      background-repeat: no-repeat;
+    }
+  </style>
+  <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body style="background-color: #AFCEEE">
+
+  <!--  navbar  -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light fixed" style="background-color: #AFCEEE">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#intro">Centre Dentaire Universitaire</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- links on navbar -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="navbarText">
+        <ul class="navbar-nav">
+          <li class="nav-item me-1">
+            <a class="nav-link fw-bold" href="#mission">Notre Mission</a>
+          </li>
+          <li class="nav-item me-1">
+            <a class="nav-link fw-bold" href="#team">Notre Équipe</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold" href="#services" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Nos Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#oralExam">Examen Oral</a></li>
+              <li><a class="dropdown-item" href="#cleaning">Nettoyage Dentaire</a></li>
+              <li><a class="dropdown-item" href="#extractions">Extractions Dentaires</a></li>
+              <li><a class="dropdown-item" href="#whitening">Blanchiment des Dents</a></li>
+              <li><a class="dropdown-item" href="#rootCanal">Chirurgie du Canal Radiculaire</a></li>
+              <li><a class="dropdown-item" href="#implants">Implants Dentaires</a></li>
+            </ul>
+          </li>
+          <li class="nav-item me-1">
+            <a class="nav-link fw-bold" href="#contact">Contactez-Nous</a>
+          </li>
+          <li class="nav-item d-lg-none">
+            <a class="nav-link fw-bold" href="#book">Fixer Un Rendez-Vous</a>
+          </li>
+        </ul>
+        <li class="nav-item ms-2 d-none d-lg-inline">
+          <a class="btn btn-secondary fw-bold" href="#book">Fixer Un Rendez-Vous</a>
+        </li>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--  image + Intro text  -->
+  <section id="intro" class="bg-image mt-4">
+    <div class="container-lg mt-5">
+      <div class="row">
+        <div class="col-md-5 text-start text-fluid">
+          <h1>
+            <div class="display-2">Bienvenue</div>
+            <div class="display-5 text-muted d-none d-lg-block">Votre expérience dentaire parfaite vous attend</div>
+          </h1>
+          <p class="lead my-4 text-muted">Continuez à défiler pour voir ce que nous offrons</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--  mission  -->
+  <section id="mission" class="bg-light mt-5">
+    <div class="text-center">
+      <h2>Notre Mission</h2>
+    </div>
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-sm-6 mt-5">
+          <img src="assets/mission.jpg" class="rounded float-start img-fluid" alt="missionImage">
+        </div>
+        <div class="col-sm-6 mt-5">
+          <p class="fs-5">
+            Notre objectif est de faire en sorte que vous ayez un sourire parfait. <br><br> Nous offrons une variété de
+            services pour parfaire vos dents, et pour s'assurer que votre santé bucco-dentaire est prise en charge.
+            <br><br>Notre personnel vient d'horizons divers et possède une gamme variée de compétences. Toutes leurs
+            valeurs et missions de vie tournent autour de notre objectif commun.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--  equipe  -->
+  <section id="team" class="bg-light mt-5">
+    <div class="text-center mb-5">
+      <h2>Notre Équipe</h2>
+    </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="assets/dentist1.jpg" class="card-img-top" alt="DrLaurant">
+        <div class="card-body">
+          <h5 class="card-title">Dre. Hazel Laurant</h5>
+          <p class="card-text">La Dre Laurant est née et a grandi à Ottawa, et a terminé ses études à l'Université
+            Carleton. Elle se spécialise dans la dentisterie chirurgicale et les implants dentaires.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/dentist2.jpg" class="card-img-top" alt="DrScott">
+        <div class="card-body">
+          <h5 class="card-title">Dr. Michael Scott</h5>
+          <p class="card-text">Le Dr Scott a grandi à Toronto, avant de déménager à Ottawa pour ses études. Il est
+            expert en extractions dentaires et en procédures de traitement de canal.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/dentist3.jpg" class="card-img-top" alt="DrZhang">
+        <div class="card-body">
+          <h5 class="card-title">Dre. Lucy Zhang</h5>
+          <p class="card-text">La Dre Zhang est née à Beijing, et a fait ses études à l'Université d'Ottawa. Elle est
+            passionnée de donner à ses clients des sourires éclatants avec des nettoyages et blanchiments.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/dentist4.jpg" class="card-img-top" alt="DrAdams">
+        <div class="card-body">
+          <h5 class="card-title">Dr. Steven Adams</h5>
+          <p class="card-text">Le Dr Adams a vécu toute sa vie à Kanata, et a complété son doctorat à l'Université
+            d'ottawa. Il est spécialisé dans toutes les procédures d'extraction et d'implantation de dents.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--  services  -->
+  <section id="services" class="bg-light mt-5">
+    <div class="text-center">
+      <h2>Nos Services</h2>
+    </div>
+
+    <div class="card-group">
+      <div class="card my-4 mx-4">
+        <img src="assets/examination.jpg" class="card-img" id="oralExam" alt="oralExam">
+        <div class="card-body">
+          <h5 class="card-title">Examen Oral</h5>
+          <p class="card-text">Un examen complet pour vérifier l'état de votre santé bucco-dentaire. Inclut des
+            radiographies. <br><br> <b>Coût: $400 </b></p>
+        </div>
+      </div>
+      <div class="card my-4 mx-4">
+        <img src="assets/cleaning.jpg" class="card-img" id="cleaning" alt="dentalCleaning">
+        <div class="card-body">
+          <h5 class="card-title">Nettoyage Dentaire</h5>
+          <p class="card-text">Une procédure effectuée pour éliminer la plaque et le tartre autour des dents, pour polir
+            et prévenir les caries sur les dents. <br><br> <b>Coût: $200 </b></p>
+        </div>
+      </div>
+      <div class="card my-4 mx-4">
+        <img src="assets/extractions.jpg" class="card-img" id="extractions" alt="dentalExtractions">
+        <div class="card-body">
+          <h5 class="card-title">Extractions Dentaires</h5>
+          <p class="card-text">Une procédure au cours de laquelle votre dent est complètement retirée de vos gencives.
+            <br><br> <b>Coût: $700 </b></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-group">
+      <div class="card my-4 mx-4">
+        <img src="assets/whitening.jpg" class="card-img" id="whitening" alt="whitening">
+        <div class="card-body">
+          <h5 class="card-title">Blanchiment des Dents</h5>
+          <p class="card-text">Une procédure dans laquelle un gel de blanchiment des dents et une lampe chauffante
+            spéciale sont appliqués sur vos dents pour en raviver la couleur. <br><br> <b>Coût: $800 </b></p>
+        </div>
+      </div>
+      <div class="card my-4 mx-4">
+        <img src="assets/rootCanal.jpg" class="card-img" id="rootCanal" alt="rootCanal">
+        <div class="card-body">
+          <h5 class="card-title">Chirurgie du Canal Radiculaire</h5>
+          <p class="card-text">Traitement visant à sauver une dent gravement endommagée ou infectée en nettoyant les
+            canaux à l'intérieur de la racine de la dent. <br><br> <b>Coût: $1000 </b></p>
+        </div>
+      </div>
+      <div class="card my-4 mx-4">
+        <img src="assets/implants.jpg" class="card-img" id="implants" alt="implants">
+        <div class="card-body">
+          <h5 class="card-title">Implants Dentaires</h5>
+          <p class="card-text">Procédure qui consiste à remplacer les racines des dents par des piliers métalliques et à
+            remplacer les dents endommagées ou manquantes par des dents artificielles. <br><br> <b>Coût: $1500 </b></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--  contact us  -->
+  <section id="contact" class="bg-light mt-5">
+    <div class="text-center">
+      <h2>Contactez-Nous</h2>
+    </div>
+    <div class="container-lg my-5">
+      <div class="row">
+
+        <div class="card text-dark border-info bg-light col-lg-4 mb-3">
+          <div class="card-header fw-bold">Location</div>
+          <div class="card-body">
+            <p class="card-text">Rendez-nous visite à l'un de nos deux sites.</p>
+            <span class="input-group-text my-4">
+              <i class="bi bi-geo-alt-fill"></i>
+              &nbsp2893 Aloha Lane, Ottawa, ON
+            </span>
+            <span class="input-group-text my-4">
+              <i class="bi bi-geo-alt-fill"></i>
+              &nbsp289 Whitening Road, Kanata, ON
+            </span>
+          </div>
+        </div>
+
+        <div class="card text-dark border-info bg-light col-lg-4 mb-3">
+          <div class="card-header fw-bold">Heures d'Operation</div>
+          <div class="card-body">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Lundi</td>
+                  <td>9AM-5PM</td>
+                </tr>
+                <tr>
+                  <td>Mardi</td>
+                  <td>9AM-5PM</td>
+                </tr>
+                <tr>
+                  <td>Mercredi</td>
+                  <td>9AM-5PM</td>
+                </tr>
+                <tr>
+                  <td>Jeudi</td>
+                  <td>9AM-5PM</td>
+                </tr>
+                <tr>
+                  <td>Vendredi</td>
+                  <td>9AM-5PM</td>
+                </tr>
+                <tr>
+                  <td>Samedi et Dimanche</td>
+                  <td>Fermé</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card text-dark border-info bg-light col-lg-4 mb-3">
+          <div class="card-header fw-bold">Telephone + Courriel</div>
+          <div class="card-body">
+            <p class="card-text">Veuillez nous contacter pour toute question.</p>
+            <span class="input-group-text my-4">
+              <i class="bi bi-envelope-fill"></i>
+              &nbspcentredentaireuniversitaire@gmail.com
+            </span>
+            <span class="input-group-text my-4">
+              <i class="bi bi-telephone-fill"></i>
+              &nbsp(613)-932-3242
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--  book appointment  -->
+  <section id="book">
+    <div class="container-lg">
+
+      <div class="text-center">
+        <h2>Fixer un Rendez-Vous</h2>
+        <p class="lead mt-4">Entrez vos informations ci-dessous pour prendre un rendez-vous</p>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+
+          <form name="bookAppointment" action="/confirmation.html">
+            <label for="name" class="form-label">Nom:</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-person-fill text-secondary"></i>
+              </span>
+              <input type="text" class="form-control" placeholder="Prénom" aria-label="FirstName" id="userFirstName">
+              <input type="text" class="form-control" placeholder="Nom de Famille" aria-label="LastName">
+            </div>
+
+            <label for="email" class="form-label">Courriel et Numéro de Téléphone :</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill text-secondary"></i>
+              </span>
+              <input type="text" id="email" class="form-control" placeholder="e.g. nom@exemple.com" />
+              <span class="input-group-text">
+                <i class="bi bi-telephone-fill"></i>
+              </span>
+              <input type="text" id="phone" class="form-control" placeholder="e.g. 999-999-9999" />
+            </div>
+
+            <label for="serviceSelection" class="form-label">De quoi avez-vous besoin?</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-question-circle-fill"></i>
+              </span>
+              <select class="form-select" id="serviceSelection">
+                <option value="select" disabled selected>Sélectionnez un Service</option>
+                <option value="examen">Examen Oral</option>
+                <option value="nettoyage">Nettoyage Dentaire</option>
+                <option value="extraction">Extractions Dentaires</option>
+                <option value="blanchiment">Blanchiment des Dents</option>
+                <option value="canalRadiculaire">Chirurgie du Canal Radiculaire</option>
+                <option value="implants">Implants Dentaires</option>
+              </select>
+            </div>
+
+            <label for="specialist" class="form-label">Sélectionnez un Spécialiste</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-file-person"></i>
+              </span>
+              <select class="form-select" id="specialist">
+                <option value="billy" selected>Dre. Hazel Laurant</option>
+                <option value="bob">Dr. Michael Scott</option>
+                <option value="dana">Dre. Lucy Zhang</option>
+                <option value="hazel">Dr. Steven Adams</option>
+              </select>
+            </div>
+
+            <label for="dateSelect" class="form-label">Sélectionnez une Date et Heure</label>
+            <div class="input-group mb-4">
+              <input class="form-control" type="date" id="dateSelect" name="trip-start" min="2022-06-05"
+                max="2023-12-31">
+              <input class="form-control" type="time" id="time" name="time" min="9:00 AM" max="5:00 PM">
+            </div>
+            <div class="my-4 text-center">
+              <button id="submitApp" type="submit" onClick="getUsersName()"
+                class="btn-lg btn-secondary">Soumettre</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer-->
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4">
+      <section>
+        <form name="applyDentist" action="javascript:displayEmail()">
+          <div class="row d-flex justify-content-center">
+            <p class="fs-2"> Nous recherchons des dentistes pour rejoindre notre équipe!</p>
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Entrez votre courriel pour en savoir plus sur cette opportunité</strong>
+              </p>
+            </div>
+            <div class="col-md-5 col-12">
+              <div class="form-outline form-white mb-4">
+                <input type="text" id="emailApp" class="form-control" />
+                <i class="bi bi-envelope"></i>
+                <label class="form-label" for="form5Example21">Courriel</label>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-outline-light mb-4" data-bs-toggle="modal"
+                data-bs-target="#confirmationModal">
+                Enregistrez
+              </button>
+            </div>
+          </div>
+        </form>
+        <!-- modal -->
+        <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content text-start text-dark">
+            <div class="modal-header ">
+              <h5 class="modal-title" id="confirmationModalLabel">Nous Avons Reçu Votre Candidature!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Merci de votre intérêt à rejoindre notre équipe.</p>
+              <p id="showEmail"></p>
+              Merci de nous avoir contactés.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright: Centre Dentaire Universitaire
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
